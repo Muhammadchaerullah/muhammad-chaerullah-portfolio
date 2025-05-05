@@ -1,5 +1,7 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <h1 class="">
+      Muhammad Chaerullah
+    </h1>
   </div>
 </template>
