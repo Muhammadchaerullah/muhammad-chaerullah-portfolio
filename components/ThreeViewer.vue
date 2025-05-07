@@ -42,7 +42,7 @@
     let model: THREE.Object3D | null = null
   
     loader.load(
-      '/models/avocado.glb',
+      '/models/Avocado.glb',
       (gltf: GLTF) => {
         model = gltf.scene
         model.scale.set(8, 8, 8) // Sesuaikan skala sesuai kebutuhan
