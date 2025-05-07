@@ -46,7 +46,11 @@
               </p>
             </div>
             <div class="flex flex-wrap gap-5 sm:justify-between justify-start">
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <ThreeViewerImgHtml/>
                 </div>
@@ -56,7 +60,11 @@
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <Css/>
                 </div>
@@ -66,7 +74,11 @@
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <Js/>
                 </div>
@@ -76,7 +88,11 @@
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <Tailwind/>
                 </div>
@@ -86,7 +102,11 @@
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <Vue/>
                 </div>
@@ -96,7 +116,11 @@
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 
+            hover:grayscale-0 hover:rotate-2 hover:scale-105 
+            focus:grayscale-0 focus:rotate-2 focus:scale-105 
+            active:grayscale-0 active:rotate-2 active:scale-105 
+            cursor-pointer">
                 <div>
                   <Nuxt/>
                 </div>
