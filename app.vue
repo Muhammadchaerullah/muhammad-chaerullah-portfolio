@@ -12,7 +12,7 @@
     >
     </div>
     <div class="mx-auto md:max-w-10/12 md:p-20 px-5 py-10">
-      <div class="flex flex-col gap-20 md:flex-row">
+      <div class="flex flex-col gap-10 md:flex-row">
         <div class="flex flex-col gap-8 md:gap-96 md:w-6/12">
           <div class="flex flex-col gap-5">
             <div class="flex flex-col">
@@ -38,31 +38,73 @@
         <div class="md:w-6/12">
           <div class="flex flex-col gap-10">
             <div>
-              <p class="text-justify">
+              <p class="sm:text-justify">
                 <span class="font-poppins font-bold">Front End Developer</span> with over 3 years of experience specializing in building responsive, user-centric
                 web applications using Vue.js, Nuxt.js, and Tailwind CSS. Skilled at translating UI/UX designs into
                 high-quality, maintainable code. Passionate about optimizing user experience, integrating APIs, and
                 collaborating with cross-functional teams to deliver impactful web solutions.
               </p>
             </div>
-            <div class="flex flex-wrap justify-between">
-              <div>
-                <ThreeViewer/>
+            <div class="flex flex-wrap gap-5 sm:justify-between justify-start">
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <ThreeViewerImgHtml/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-orange-300">
+                    HTML
+                  </p>
+                </div>
               </div>
-              <div>
-                <ThreeViewer/>
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <Css/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-blue-400">
+                    CSS 3
+                  </p>
+                </div>
               </div>
-              <div>
-                <ThreeViewer/>
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <Js/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-yellow-300">
+                    JS
+                  </p>
+                </div>
               </div>
-              <div>
-                <ThreeViewer/>
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <Tailwind/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-cyan-300">
+                    TAILWIND
+                  </p>
+                </div>
               </div>
-              <div>
-                <ThreeViewer/>
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <Vue/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-green-300">
+                    VUE
+                  </p>
+                </div>
               </div>
-              <div>
-                <ThreeViewer/>
+              <div class="flex flex-col gap-2 items-center grayscale transition-all duration-300 hover:grayscale-0 transform hover:rotate-2 hover:scale-105 cursor-pointer">
+                <div>
+                  <Nuxt/>
+                </div>
+                <div>
+                  <p class="font-bold text-sm sm:text-lg text-green-300">
+                    NUXT
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -74,7 +116,12 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-import ThreeViewer from '~/components/ThreeViewer.vue'
+import ThreeViewerImgHtml from '~/components/ThreeViewerImgHtml.vue'
+import Css from '~/components/Css.vue'
+import Vue from '~/components/Vue.vue'
+import Js from '~/components/Js.vue'
+import Tailwind from '~/components/Tailwind.vue'
+import Nuxt from '~/components/Nuxt.vue'
 
 const position = ref({ x: 0, y: 0 })
 
