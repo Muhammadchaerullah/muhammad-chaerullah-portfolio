@@ -14,16 +14,16 @@
           <main class="flex flex-col gap-8 md:gap-96 md:w-6/12">
               <div class="flex flex-col gap-5 px-5">
                 <div class="flex flex-col">
-                  <h1 class="text-3xl font-bold tracking-tight text-slate-200 md:text-5xl">
+                  <h1 class="text-3xl font-bold tracking-tight text-slate-200 md:text-4xl">
                     Muhammad Chaerullah
                   </h1>
-                  <p class="text-base font-light tracking-tight text-slate-200 md:text-3xl">
+                  <p class="text-base tracking-tight text-slate-200 md:text-2xl">
                     Front End Engineer
                   </p>
                 </div>
                 <div>
-                  <p class="text-lg font-light tracking-tight text-slate-400 md:text-xl">
-                    Designing seamless digital experiences <br> accessible, beautiful, and fast.
+                  <p class="text-sm font-light tracking-tight text-slate-400 md:text-base">
+                    Stepping out of the comfort zone <br> never stopping the learning journey.
                   </p>
                 </div>
               </div>
@@ -35,7 +35,7 @@
           </main>
           <main class="md:w-6/12 sm:max-h-screen sm:overflow-y-auto scroll-hide">
             <div class="flex flex-col gap-20 sm:gap-10">
-              <section>
+              <section id="about">
                 <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
                   <p class="text-sm font-bold text-white">
                     ABOUT
@@ -44,41 +44,102 @@
                 <div class="px-5">
                   <div class="flex flex-col gap-5">
                     <p class="text-base/7 sm:text-sm">
-                      <span class="text-white">Thank you for visiting this portfolio,</span> I’m a Front End Developer passionate about crafting accessible, visually precise user interfaces, combining thoughtful design with solid engineering.
+                      <span class="text-white">I'm a Front-End Developer</span> who loves creating accessible and visually accurate user interfaces by combining design and solid code.
+                      Previously, I worked as an IT Technician maintaining office computers, but by <span class="text-white">the grace of Allah SWT</span>, I was able to shift my career to web development—something I’ve been passionate about since university.
                     </p>
                     <p class="text-base/7 sm:text-sm">
-                      In the past, I worked as an <span class="text-white">IT Technician</span>, where I was responsible for maintaining office computers and troubleshooting user device issues. However, by the grace of <span class="text-white">Allah SWT</span>, I was given the opportunity to completely shift my career path and pursue my passion for web programming something I had already loved since my university days.
+                      Over the years, I’ve built web apps in various settings, from student projects to <span class="text-white">working at a startup for around five years.</span>
                     </p>
                     <p class="text-base/7 sm:text-sm">
-                      I’ve had the chance to develop web-based applications in various environments, starting from small projects with fellow students to working in a <span class="text-white">startup company for about five years</span>. I'm proud of that journey, and it's fulfilling to see my dream come true.
-                    </p>
-                    <p class="text-base/7 sm:text-sm">
-                      In my spare time, I enjoy learning new things—whether it's new technologies or evolving programming stacks. I also actively participate in religious and social activities. I'm currently the head of the youth mosque organization in my neighborhood and serve as the secretary of my local community council (RW). I often spend quality time with my wife, sharing stories about our daily lives.
+                      <span class="text-white">Outside of work</span>, I enjoy learning new technologies and staying updated with the latest in programming.
+                      I’m also active in my community, currently leading the local youth mosque organization and serving as secretary of the neighborhood council.
+                      In my free time, I love spending time with my wife and sharing daily stories.
                     </p>
                   </div>
                 </div>
               </section>
-              <!-- <section>
-                <div class="flex flex-col gap-5">
+              <section id="experience">
+                <div class="flex flex-col gap-10">
                   <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
                     <p class="text-sm font-bold text-white">
                       EXPERIENCE
                     </p>
                   </div>
-                  <ol class="group/list">
-                    <li class="mb-12">
-                      <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-xl transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg o">
-                        </div>
-                        <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 px-5">
-                          2019 - present
+                  <div class="flex-col gap-5 sm:flex">
+                    <div>
+                      <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 px-5">
+                          2019 - 2025
                         </header>
+                    </div>
+                    <div>
+                      <div class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out">
+                          Middle Front End Developer · Travellergram
+                        </div>
+                    </div>
+                    <div class="text-sm/7 px-5">
+                      Build and optimize website or application interfaces using HTML, CSS, JavaScript, and frameworks like Vue.js or Nuxt.js, 
+                      Translate UI/UX designs into functional code and work closely with backend developers to integrate APIs and server-side data,
+                      Make sure the application is responsive across devices, loads quickly, and delivers a smooth user experience.
+                    </div>
+                    <div class="flex flex-row gap-2 px-5 mt-2">
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          JavaScript
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Vue.js
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Nuxt.js
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Tailwind CSS
+                        </div>
                       </div>
-                    </li>
-                  </ol>
+                  </div>
+                  <div class="flex-col gap-5 sm:flex">
+                    <div>
+                      <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 px-5">
+                          2018 - 2019
+                        </header>
+                    </div>
+                    <div>
+                      <div class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out">
+                          IT Technician – Key Responsibilities · PT. Fastratabuana Kapal Api
+                        </div>
+                    </div>
+                    <div class="text-sm/7 px-5">
+                      <span class="text-white">Maintain and repair hardware components</span>
+                      Ensure computers, printers, and other IT equipment function properly and perform necessary repairs when issues arise,
+                      <span class="text-white">Install and configure software</span>
+                      Install operating systems, work-related applications, antivirus programs, and carry out routine updates,
+                      <span class="text-white">Troubleshoot technical issues</span>
+                      Diagnose and resolve hardware, software, and basic network problems; provide user support for day-to-day technical issues.
+                    </div>
+                    <div class="flex flex-row flex-wrap gap-2 px-5 mt-2">
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Hardware
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          software knowledge
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Basic networking
+                        </div>
+                        <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
+                          Communication and problem-solving
+                        </div>
+                      </div>
+                  </div>
                 </div>
-              </section> -->
-              <section>
+              </section>
+              <section id="skill">
+                <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
+                  <p class="text-sm font-bold text-white">
+                    SKILL
+                  </p>
+                </div>
+              </section>
+              <section class="pb-20 mb-20">
                 <div class="flex flex-wrap gap-5 sm:justify-between justify-start px-5">
                     <div class="flex flex-col gap-2 items-center sm:grayscale transition-all duration-300 
                     sm:hover:grayscale-0 sm:hover:rotate-2 sm:hover:scale-105 
