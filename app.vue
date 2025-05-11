@@ -26,11 +26,16 @@
                     Stepping out of the comfort zone <br> never stopping the learning journey.
                   </p>
                 </div>
-              </div>
-              <div class="flex gap-5 px-5">
-                <Icon name="uil:github" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
-                <Icon name="uil:linkedin" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
-                <Icon name="uil:instagram" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
+                <img
+                  src="/img/me.png"
+                  alt="This is me"
+                  class="hidden lg:block w-full object-cover rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+                />
+                <div class="flex gap-5">
+                  <Icon name="uil:github" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
+                  <Icon name="uil:linkedin" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
+                  <Icon name="uil:instagram" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
+                </div>
               </div>
           </main>
           <main class="md:w-6/12 sm:max-h-screen sm:overflow-y-auto scroll-hide">
@@ -43,14 +48,14 @@
                 </div>
                 <div class="px-5">
                   <div class="flex flex-col gap-5">
-                    <p class="text-base/7 sm:text-sm">
+                    <p class="text-sm/7 sm:text-sm/7">
                       <span class="text-white">I'm a Front-End Developer</span> who loves creating accessible and visually accurate user interfaces by combining design and solid code.
                       Previously, I worked as an IT Technician maintaining office computers, but by <span class="text-white">the grace of Allah SWT</span>, I was able to shift my career to web development—something I’ve been passionate about since university.
                     </p>
-                    <p class="text-base/7 sm:text-sm">
+                    <p class="text-base/7 sm:text-sm/7">
                       Over the years, I’ve built web apps in various settings, from student projects to <span class="text-white">working at a startup for around five years.</span>
                     </p>
-                    <p class="text-base/7 sm:text-sm">
+                    <p class="text-base/7 sm:text-sm/7">
                       <span class="text-white">Outside of work</span>, I enjoy learning new technologies and staying updated with the latest in programming.
                       I’m also active in my community, currently leading the local youth mosque organization and serving as secretary of the neighborhood council.
                       In my free time, I love spending time with my wife and sharing daily stories.
@@ -104,7 +109,7 @@
                     </div>
                     <div>
                       <div class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out">
-                          IT Technician – Key Responsibilities · PT. Fastratabuana Kapal Api
+                          IT Technician – Responsibilities · PT. Fastratabuana Kapal Api
                         </div>
                     </div>
                     <div class="text-sm/7 px-5">
@@ -115,7 +120,7 @@
                       <span class="text-white">Troubleshoot technical issues</span>
                       Diagnose and resolve hardware, software, and basic network problems; provide user support for day-to-day technical issues.
                     </div>
-                    <div class="flex flex-row flex-wrap gap-2 px-5 mt-2">
+                    <div class="flex flex-wrap gap-2 px-5 mt-2 justify-start">
                         <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
                           Hardware
                         </div>
@@ -126,20 +131,18 @@
                           Basic networking
                         </div>
                         <div class="font-medium px-3 py-1 bg-teal-500/10 rounded-full text-xs text-teal-300 text-center leading-5">
-                          Communication and problem-solving
+                          problem solving
                         </div>
                       </div>
                   </div>
                 </div>
               </section>
-              <section id="skill">
+              <section id="skill" class="sm:mb-5">
                 <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
                   <p class="text-sm font-bold text-white">
                     SKILL
                   </p>
                 </div>
-              </section>
-              <section class="pb-20 mb-20">
                 <div class="flex flex-wrap gap-5 sm:justify-between justify-start px-5">
                     <div class="flex flex-col gap-2 items-center sm:grayscale transition-all duration-300 
                     sm:hover:grayscale-0 sm:hover:rotate-2 sm:hover:scale-105 
@@ -231,6 +234,7 @@ import Vue from '~/components/Vue.vue'
 import Js from '~/components/Js.vue'
 import Tailwind from '~/components/Tailwind.vue'
 import Nuxt from '~/components/Nuxt.vue'
+import { LazyIcon } from '#components'
 
 const position = ref({ x: 0, y: 0 })
 
