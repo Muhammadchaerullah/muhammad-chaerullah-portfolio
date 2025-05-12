@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-screen p-5 sm:p-0">
+    <div class="w-full h-screen">
       <iframe
         class="w-full h-full"
         src="/pdfs/Muhammad_Chaerullah_Full_Resume.pdf"
