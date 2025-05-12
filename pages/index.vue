@@ -42,6 +42,15 @@
                   <Icon name="uil:instagram" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
                 </a>
               </div>
+              <div class="flex items-center">
+                <NuxtLink
+                  to="/resume"
+                  class="text-lg font-semibold text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out flex items-center gap-2"
+                >
+                  View Full Resume
+                  <Icon name="uil:arrow-up-right" />
+                </NuxtLink>
+              </div>
             </div>
         </main>
         <main class="lg:w-6/12 sm:max-h-screen sm:overflow-y-auto scroll-hide">
@@ -199,15 +208,6 @@
                       Customer Service
                     </div>
                   </div>
-                </div>
-                <div class="flex items-center">
-                  <NuxtLink
-                    to="/resume"
-                    class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out flex items-center gap-2"
-                  >
-                    View Full Resume
-                    <Icon name="uil:arrow-up-right" />
-                  </NuxtLink>
                 </div>
               </div>
             </section>

@@ -2,7 +2,7 @@
     <div class="w-full h-screen">
       <iframe
         class="w-full h-full"
-        src="/pdfs/Muhammad_Chaerullah.pdf"
+        src="/pdfs/Muhammad_Chaerullah_Resume.pdf"
         type="application/pdf"
       ></iframe>
     </div>
