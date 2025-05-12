@@ -205,7 +205,7 @@
                     to="/resume"
                     class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out flex items-center gap-2"
                   >
-                    Check My Full Resume
+                    View Full Resume
                     <Icon name="uil:arrow-up-right" />
                   </NuxtLink>
                 </div>
