@@ -45,7 +45,7 @@
             </div>
         </main>
         <main class="lg:w-6/12 sm:max-h-screen sm:overflow-y-auto scroll-hide">
-          <div class="flex flex-col gap-20 sm:gap-10">
+          <div class="flex flex-col gap-5 sm:gap-10">
             <section id="about">
               <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
                 <p class="text-sm font-bold text-white">
@@ -70,13 +70,13 @@
               </div>
             </section>
             <section id="experience">
-              <div class="flex flex-col gap-10">
-                <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
-                  <p class="text-sm font-bold text-white">
-                    EXPERIENCE
-                  </p>
-                </div>
+              <div class="flex flex-col gap-20 sm:gap-10">
                 <div class="flex-col gap-5 sm:flex">
+                  <div class="p-5 sticky top-0 z-50 backdrop-blur-2xl block sm:hidden scroll-hide">
+                    <p class="text-sm font-bold text-white">
+                      EXPERIENCE
+                    </p>
+                  </div>
                   <div>
                     <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 px-5">
                         2019 - 2025
