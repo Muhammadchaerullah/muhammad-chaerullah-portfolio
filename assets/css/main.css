@@ -3,3 +3,7 @@
 @theme {
   --font-display: 'Inter', system-ui, sans-serif;
 }
+
+body {
+  @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-500;
+}
