@@ -92,7 +92,7 @@
                       </header>
                       <div>
                         <div class="text-lg font-semibold px-5 text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out">
-                            Middle Front End Developer · Travellergram
+                            Front End Developer · Travellergram
                           </div>
                       </div>
                   </div>
