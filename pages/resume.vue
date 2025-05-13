@@ -8,8 +8,20 @@
   
   <script setup>
   // Optional: you can add meta if needed
-  useHead({
-    title: 'My Full Resume',
-  });
+useHead({
+  title: 'My Resume - Muhammad Chaerullah',
+  meta: [
+    {
+      name: 'description',
+      content: 'Temukan informasi lengkap tentang Muhammad Chaerullah terbaik di sini.',
+    },
+  ],
+link: [
+  {
+    rel: 'icon',
+    href: '/favicon.ico',
+  },
+]
+})
   </script>
   

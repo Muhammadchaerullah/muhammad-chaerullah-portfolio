@@ -304,7 +304,22 @@ import Vue from '~/components/Vue.vue'
 import Js from '~/components/Js.vue'
 import Tailwind from '~/components/Tailwind.vue'
 import Nuxt from '~/components/Nuxt.vue'
-import { LazyIcon } from '#components'
+
+useHead({
+  title: 'Home - Muhammad Chaerullah',
+  meta: [
+    {
+      name: 'description',
+      content: 'Temukan informasi lengkap tentang Muhammad Chaerullah terbaik di sini.',
+    },
+  ],
+link: [
+  {
+    rel: 'icon',
+    href: '/favicon.ico',
+  },
+]
+})
 
 const position = ref({ x: 0, y: 0 })
 
