@@ -1,7 +1,7 @@
 <template>
     <iframe
       class="w-full h-screen"
-      src="/pdfs/Muhammad_Chaerullah_Resume.pdf"
+      src="/pdfs/Muhammad_Chaerullah_CV.pdf"
       type="application/pdf"
     ></iframe>
 </template>
