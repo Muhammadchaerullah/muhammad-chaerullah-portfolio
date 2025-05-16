@@ -42,15 +42,6 @@
                   <Icon name="uil:instagram" class="text-slate-400 hover:text-slate-100 md:text-4xl text-3xl cursor-pointer" />
                 </a>
               </div>
-              <div class="flex items-center">
-                <NuxtLink
-                  to="/resume"
-                  class="text-lg font-semibold text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out flex items-center gap-2"
-                >
-                  View Full Resume
-                  <Icon name="uil:arrow-up-right" />
-                </NuxtLink>
-              </div>
             </div>
         </main>
         <main class="lg:w-6/12 sm:max-h-screen sm:overflow-y-auto scroll-hide">
@@ -63,7 +54,7 @@
               </div>
               <div class="px-5">
                 <div class="flex flex-col gap-5">
-                  <p class="text-sm/7 sm:text-sm/7">
+                  <p class="text-base/7 sm:text-sm/7">
                     <span class="text-white">I'm a Front-End Developer</span> who loves creating accessible and visually accurate user interfaces by combining design and solid code.
                     Previously, I worked as an Staff Logistic Routing and Sales Assistant but by <span class="text-white">the grace of Allah SWT</span>, I was able to shift my career to web development—something I’ve been passionate about since university.
                   </p>
@@ -289,6 +280,17 @@
                   </p>
                 </div>
               </div>
+            </div>
+        </section>
+        <section>
+          <div class="flex items-center">
+              <NuxtLink
+                to="/resume"
+                class="text-lg font-semibold text-white hover:text-emerald-500 cursor-pointer transition duration-300 ease-in-out flex items-center gap-2"
+              >
+                View Full Resume
+                <Icon name="uil:arrow-up-right" />
+              </NuxtLink>
             </div>
         </section>
       </main>
